@@ -1,4 +1,4 @@
-// 스트림 구문을 사용해서 범위를 매번 설정해주는 방식으로 풀이하는 방법도 가능하지만,
+package lv0;// 스트림 구문을 사용해서 범위를 매번 설정해주는 방식으로 풀이하는 방법도 가능하지만,
 // 더 좋은 풀이 방법은 시작, 끝 그리고 간격을 정의하여 알맞은 크기의 배열을 생성하고 값을 할당하여 최적화하는 것이라고 생각한다.
 
 import java.util.stream.IntStream;
@@ -19,7 +19,7 @@ class 리스트자르기 {
     }
 }
 
-//public class 리스트자르기 {
+//public class lv0.리스트자르기 {
 //    public int[] solution(int n, int[] slicer, int[] num_list) {
 //
 //        if (n == 1) {

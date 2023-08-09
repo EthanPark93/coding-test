@@ -1,4 +1,4 @@
-// 조건이 간단한 문제지만, 풀이의 효율성을 생각하면 핵심 아이디어가 있다.
+package lv0;// 조건이 간단한 문제지만, 풀이의 효율성을 생각하면 핵심 아이디어가 있다.
 // 조건 중에 idx 이상이어야 한다는 것을 생각하면, 루프를 처음부터 돌리면서 if문에 조건 두가지를 넣는 것이 아니라
 // 애초에 idx번째부터 루프를 돌리면 된다.
 
@@ -14,7 +14,7 @@ class 가까운1찾기 {
     }
 }
 
-//public class 가까운1찾기 {
+//public class lv0.가까운1찾기 {
 //    public int solution(int[] arr, int idx) {
 //        for (int i = idx; i < arr.length; i++) if (arr[i] == 1) return i;
 //        return -1;

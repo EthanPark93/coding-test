@@ -1,4 +1,4 @@
-// 첫 번째 풀이 방법은 해당 인덱스 값을 찾아 스트링에 대입하여 판별하는 방식이다.
+package lv0;// 첫 번째 풀이 방법은 해당 인덱스 값을 찾아 스트링에 대입하여 판별하는 방식이다.
 // 두 번째는 스트링 배열을 순회하며 조건을 판별하며, 조건을 만족하는 값이 존재하지 않으면 빈 배열을 반환한다.
 
 import java.util.Arrays;
@@ -15,7 +15,7 @@ public class 왼쪽오른쪽 {
     }
 }
 
-//class 왼쪽오른쪽 {
+//class lv0.왼쪽오른쪽 {
 //    public String[] solution(String[] str_list) {
 //
 //        for (int i = 0; i < str_list.length; i++) {

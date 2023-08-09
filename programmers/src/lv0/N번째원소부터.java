@@ -1,3 +1,5 @@
+package lv0;
+
 import java.util.Arrays;
 
 public class N번째원소부터 {

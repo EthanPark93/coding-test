@@ -1,4 +1,4 @@
-// 두가지 풀이를 생각해볼 수 있다.
+package lv0;// 두가지 풀이를 생각해볼 수 있다.
 
 // 첫 번째 풀이는 c번째 문자를 결과값에 더한 뒤, m번째 이후 문자열을 기존 문자열에 재할당 한다.
 // 두 번째 풀이는 인덱스의 증가량을 += m으로 조정하여 c번째 문자열을 추가한다.
@@ -18,7 +18,7 @@ class 세로읽기 {
     }
 }
 
-//class 세로읽기 {
+//class lv0.세로읽기 {
 //
 //    public String solution(String my_string, int m, int c) {
 //        String answer = "";

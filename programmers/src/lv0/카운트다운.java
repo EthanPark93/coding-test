@@ -1,4 +1,4 @@
-// 기본 for문으로 간단하게 풀이할 수 있는 문제.
+package lv0;// 기본 for문으로 간단하게 풀이할 수 있는 문제.
 // 배열을 들어갈 숫자만큼의 크기로 생성하고 그 크기만큼 순회한다.
 // 배열의 인덱스에 해당하는 위치에 시작 숫자 - 인덱스를 해주면 감소하는 수를 담을 수 있다.
 
@@ -20,7 +20,7 @@ public class 카운트다운 {
     }
 }
 
-//public class 카운트다운 {
+//public class lv0.카운트다운 {
 //    public int[] solution(int start, int end) {
 //        int[] answer = new int[start-end+1];
 //

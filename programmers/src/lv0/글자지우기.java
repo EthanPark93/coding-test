@@ -1,4 +1,4 @@
-// 이 문제도 어차피 문자열 배열을 문자열로 합치는 과정을 포함할 것이라면
+package lv0;// 이 문제도 어차피 문자열 배열을 문자열로 합치는 과정을 포함할 것이라면
 // 0으로 변환 후 필터링 할 필요없이 빈 문자열로 변환 후 합치는 것이 더 간결하다.
 
 
@@ -14,7 +14,7 @@ public class 글자지우기 {
     }
 }
 
-//public class 글자지우기 {
+//public class lv0.글자지우기 {
 //    public String solution(String my_string, int[] indices) {
 //        String[] splitAr = my_string.split("");
 //

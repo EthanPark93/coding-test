@@ -1,4 +1,4 @@
-// query를 순회하며, 짝수인지 판단하고 copyOfRange 메서드로 배열을 복사하되 구간을 조건에 맞게 설정한다.
+package lv0;// query를 순회하며, 짝수인지 판단하고 copyOfRange 메서드로 배열을 복사하되 구간을 조건에 맞게 설정한다.
 
 import static java.util.Arrays.*;
 

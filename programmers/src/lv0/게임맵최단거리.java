@@ -1,3 +1,5 @@
+package lv0;
+
 import java.util.*;
 
 class 게임맵최단거리 {

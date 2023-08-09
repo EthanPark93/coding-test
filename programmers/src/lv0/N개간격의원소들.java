@@ -1,4 +1,4 @@
-// 조건에 맞는 인덱스를 필터링 한 뒤, 배열을 맵핑한다.
+package lv0;// 조건에 맞는 인덱스를 필터링 한 뒤, 배열을 맵핑한다.
 
 import java.util.stream.IntStream;
 
