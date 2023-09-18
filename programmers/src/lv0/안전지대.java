@@ -13,7 +13,7 @@ public class 안전지대 {
                         int x = j+dx[k];
                         int y = i+dy[k];
                         if (x >= 0 && x < board.length && y >= 0 && y < board[0].length && board[y][x] != 1) {
-                            board[y][x] = -1;
+                            board[y][x]--;
                         }
                     }
                 }
