@@ -7,7 +7,6 @@ public class 숨어있는숫자의덧셈2 {
         int answer = 0;
         String t = "";
         int[] charAr = my_string.chars().toArray();
-
         for (int i = 0; i < charAr.length; i++) {
             if (charAr[i] < 65) t += (char) charAr[i];
 
@@ -16,7 +15,6 @@ public class 숨어있는숫자의덧셈2 {
                 t = "";
             }
         }
-
         return answer;
     }
 }
