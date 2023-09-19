@@ -44,3 +44,39 @@ class 게임맵최단거리 {
         return visited[maps.length-1][maps[0].length-1] ? maps[maps.length-1][maps[0].length-1] : -1;
     }
 }
+
+//class 게임맵최단거리 {
+//    public int solution(int[][] maps) {
+//        return bfs(maps);
+//    }
+//
+//    public int bfs(int[][] maps) {
+//        int[] dx = {1,-1,0,0};
+//        int[] dy = {0,0,1,-1};
+//
+//        Queue<int[]> queue = new LinkedList<>();
+//        int[][] dis = new int[maps.length][maps[0].length];
+//
+//        queue.add(new int[] {0,0});
+//        dis[0][0] = 1;
+//        dis[maps.length-1][maps[0].length-1] = -1;
+//
+//        while(!queue.isEmpty()) {
+//            int[] now = queue.poll();
+//
+//            for(int i = 0; i < 4; i++) {
+//                int x = now[1] + dx[i];
+//                int y = now[0] + dy[i];
+//
+//                if(x >= 0 && y >= 0 && x < maps[0].length && y < maps.length) {
+//                    if(maps[y][x] == 1 && dis[y][x] <= 0) {
+//                        queue.add(new int[] {y,x});
+//                        dis[y][x] = dis[now[0]][now[1]] + 1;
+//                    }
+//                }
+//            }
+//        }
+//
+//        return dis[maps.length-1][maps[0].length-1];
+//    }
+//}
