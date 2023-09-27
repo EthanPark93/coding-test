@@ -1,3 +1,5 @@
+// 에라토스테네스의 체
+
 package lv1;
 
 import java.util.Arrays;
