@@ -16,8 +16,7 @@ public class 연속된부분수열의합 {
             if(sum <= k){
                 if(++right < sequence.length) sum += sequence[right];
             } else {
-                if(left < sequence.length) sum -= sequence[left];
-                left++;
+                if(left < sequence.length) sum -= sequence[left++];
             }
         }
 
